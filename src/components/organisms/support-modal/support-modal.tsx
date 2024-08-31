@@ -3,7 +3,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { Textarea } from '@/components/ui/textarea';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogClose, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 export default function SupportModal() {
   const [openQuestion, setOpenQuestion] = useState(0);
@@ -98,9 +98,11 @@ export default function SupportModal() {
                 />
               </div>
               <div className="flex justify-end space-x-4">
-                <Button className="border-none text-white bg-[#132639] hover:bg-[#1b3b5c]">
+                <DialogClose>
+                  <Button className="border-none text-white bg-[#132639] hover:bg-[#1b3b5c]">
                   Cancelar
-                </Button>
+                  </Button>
+                </DialogClose>
                 <Button className="bg-[#0095ff] text-white hover:bg-[#0077cc]">
                   Enviar
                 </Button>
