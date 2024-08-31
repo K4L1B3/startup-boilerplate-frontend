@@ -3,9 +3,13 @@ import SendButtonConversation from '@/components/atoms/send-button-conversation/
 import { SendIcon } from 'lucide-react';
 import { Textarea } from '@/components/ui/textarea';
 
-const ConversationBar: React.FC = () => {
+interface IConversationBar {
+  className: string;
+}
+
+const ConversationBar: React.FC<IConversationBar> = ({className}) => {
   return (
-    <div className="relative mt-6">
+    <div className={`relative mt-6 ${className}`}>
       <Textarea
         placeholder="Type your message here."
         className="max-h-28 min-h-0 w-full rounded-lg border-none bg-[#052639] pr-16 text-white placeholder-gray-400"

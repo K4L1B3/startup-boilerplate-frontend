@@ -1,12 +1,15 @@
+import { SideMenu } from '@/components/organisms/side-menu/side-menu';
 import ChatbotInterface from '@/components/template/chatbot-interface/chatbot-interface';
-import NavMenu from '@/components/template/nav-menu/nav-menu';
+import { NavMenuOcultContainer } from '@/components/template/nav-menu-ocult/nav-menu-ocult';
+import NavMenu from '@/components/template/nav-menu-hamburger/nav-menu-hamburger';
 import React from 'react';
 
 export default function Home() {
   return (
     <div>
-      <NavMenu />
-      <ChatbotInterface />
+      <NavMenuOcultContainer>
+        <ChatbotInterface />
+      </NavMenuOcultContainer>
     </div>
   );
 }

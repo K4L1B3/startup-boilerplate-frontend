@@ -33,14 +33,14 @@ const ChatbotInterface: React.FC = () => {
   ];
 
   return (
-    <div>
+    <div className=''>
       <div className="flex h-screen flex-col items-center justify-center bg-[#001726] p-6 text-white md:w-full md:p-0">
-        <div className="flex w-full flex-col justify-start gap-y-64 md:pl-3 lg:w-9/12">
+        <div className="flex w-full flex-col justify-start lg:items-center gap-y-48 md:pl-3 lg:w-9/12">
           <div className="flex-1">
             <ChatHeader userName={userName} />
             <SuggestionList suggestions={suggestions} />
           </div>
-          <ConversationBar />
+          <ConversationBar className="lg:w-7/12" />
         </div>
       </div>
     </div>
