@@ -54,7 +54,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isExpanded }) => {
           </div>
         ) : (
           <>
-            <div className="-ml-20 mb-8 -mt-1">
+            <div className="-ml-20 lg:-ml-32 mb-8 -mt-1">
               <Image className="h-12" src={LogoPandora} alt="Pandora Logo" />
             </div>
 
