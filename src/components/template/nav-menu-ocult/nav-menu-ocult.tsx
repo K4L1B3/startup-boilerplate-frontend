@@ -26,7 +26,7 @@ export const NavMenuOcultContainer: React.FC<NavMenuOcultContainerProps> = ({ ch
         <main
           className={cn(
             "flex-1 overflow-auto transition-transform duration-300 ease-in-out",
-            isMenuExpanded ? "translate-x-64" : "translate-x-0"
+            isMenuExpanded ? "translate-x-64 lg:translate-x-72" : "translate-x-0"
           )}
         >
           {children}

@@ -33,7 +33,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isExpanded }) => {
   return (
     <aside
       className={cn(
-        'absolute left-0 top-0 h-full w-8/12 lg:w-[14%] bg-[#0D3451] text-white transition-transform duration-300 ease-in-out',
+        'absolute left-0 top-0 h-full w-8/12 lg:w-[16%] bg-[#0D3451] text-white transition-transform duration-300 ease-in-out',
         isExpanded ? 'translate-x-0' : '-translate-x-full'
       )}
     >
@@ -133,7 +133,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isExpanded }) => {
               Novo Chat
             </button>
 
-            <div className="absolute bottom-10 left-4 flex items-center">
+            <div className="absolute bottom-10 flex items-center">
               <UserProfile />
             </div>
           </>

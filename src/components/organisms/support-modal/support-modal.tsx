@@ -28,7 +28,7 @@ export default function SupportModal() {
         <p className="bg-transparent hover:bg-transparent">Abrir Suporte</p>
       </DialogTrigger>
       <DialogContent className="max-w-4xl border-none p-0 outline-none ring-0 focus:border-none focus:outline-none focus:ring-0 active:outline-none">
-        <div className="max-h-[80vh] overflow-y-auto bg-[#0c1824] p-6 text-white">
+        <div className="max-h-[90vh] overflow-y-auto bg-[#0c1824] p-6 text-white">
           <h1 className="mb-6 text-4xl font-bold">Suporte</h1>
 
           <section className="mb-12">
@@ -98,7 +98,7 @@ export default function SupportModal() {
                 />
               </div>
               <div className="flex justify-end space-x-4">
-                <Button className="border-none text-white hover:bg-[#132639]">
+                <Button className="border-none text-white bg-[#132639] hover:bg-[#1b3b5c]">
                   Cancelar
                 </Button>
                 <Button className="bg-[#0095ff] text-white hover:bg-[#0077cc]">
