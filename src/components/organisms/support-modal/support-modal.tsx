@@ -29,7 +29,7 @@ export default function SupportModal() {
       </DialogTrigger>
       <DialogContent className="max-w-4xl border-none p-0 outline-none ring-0 focus:border-none focus:outline-none focus:ring-0 active:outline-none">
         <div className="max-h-[90vh] overflow-y-auto bg-[#0c1824] p-6 text-white">
-          <h1 className="mb-6 text-4xl font-bold">Suporte</h1>
+          <h1 className="mb-6 text-4xl font-bold">Precisa de ajuda?</h1>
 
           <section className="mb-12">
             <h2 className="mb-4 text-2xl font-semibold">
